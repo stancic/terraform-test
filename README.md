@@ -28,7 +28,6 @@ terraform output -json > terraform.json
 You can get a single output with the following command:
 
 ```bash
-terraform output aws_cognito_user_pool_id
 ```
 
 This mechanism always retrieves the current value of the output. In case of value rotation it will track the latest value after state synchronization.
